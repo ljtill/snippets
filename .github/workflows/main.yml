@@ -1,23 +1,33 @@
-name: Generator
-on: [workflow_dispatch]
+name: "Schedule"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
+
 jobs:
   default:
-    runs-on: ubuntu-latest
+    name: "Generate"
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
+      - name: "Checkout repository"
         uses: actions/checkout@v3
-      - name: Setup
+
+      - name: "Setup deno"
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Run
+
+      - name: "Run deno"
         run: |
           deno run --allow-env --allow-net --allow-write .github/scripts/main.ts
-      - name: Configure
+
+      - name: "Configure git"
         run: |
           git config user.name "GitHub Actions"
           git config user.email "action@github.com"
-      - name: Push
+
+      - name: "Push markdown"
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add ./README.md
