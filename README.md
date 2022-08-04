@@ -20,7 +20,7 @@
 | bd68e | JSON | [Link](https://gist.github.com/bd68e4ba23a2863866c44b10ae7e9a93) | Provides the ability to deploy policy definition via arm template |
 | ed7a0 | PowerShell | [Link](https://gist.github.com/ed7a00636ae047213ef06cd126463599) | Provides the ability to recursively remove Management Groups and move Subscriptions |
 | e79c0 | JSON | [Link](https://gist.github.com/e79c0c0207c4ecb1c3abbba78645185c) | Provides the ability to deploy Management Groups with templates |
-| 6ed96 | JSON | [Link](https://gist.github.com/6ed96d712dab9fb9e378b1bc62561e25) | Provides the ability to deploy Policy Definitions with templates. |
+| 6ed96 | JSON | [Link](https://gist.github.com/6ed96d712dab9fb9e378b1bc62561e25) | Provides the ability to deploy Policy Definitions with templates |
 | 3f349 | JSON | [Link](https://gist.github.com/3f349943e5432e452af23c08b252359c) | Provides the ability to deploy Subscriptions with templates |
 | b82d5 | PowerShell | [Link](https://gist.github.com/b82d58f523eefc14739582d13f84ce5e) | Provides the ability to thread the operations of retrieving Policy artefacts |
 | df054 | JSON | [Link](https://gist.github.com/df05405702a6e3125b479360b906db25) | Provides the ability to deploy Resource Groups with templates |
