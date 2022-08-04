@@ -27,6 +27,7 @@ interface Gist {
   owner: Owner;
   truncated: boolean;
 }
+
 interface Owner {
   login: string;
   id: number;
@@ -47,6 +48,7 @@ interface Owner {
   type: string;
   site_admin: boolean;
 }
+
 interface File {
   filename: string;
   type: string;
@@ -54,6 +56,7 @@ interface File {
   raw_url: string;
   size: number;
 }
+
 async function getGitHubGists(username: string): Promise<Gist[]> {
   try {
     const httpResponse = await fetch(
@@ -65,16 +68,17 @@ async function getGitHubGists(username: string): Promise<Gist[]> {
         },
       },
     );
-    const data = JSON.parse(await httpResponse.text());
-    return data;
+    return JSON.parse(await httpResponse.text());
   } catch (e) {
     console.error(e);
     Deno.exit(1);
   }
 }
+
 function getGitHubGistId(gist: Gist): string {
   return gist.id.substring(0, 5);
 }
+
 function getGitHubGistFileLanguage(gist: Gist): string {
   let fileLanguage = "";
   for (const key in gist.files) {
@@ -105,14 +109,17 @@ function newMarkdownTable(gists: Gist[]): string {
 
   return tableRows;
 }
+
 function newMarkdownTableHeader(): string {
   return "| " + "ID" + " | " + " Language " + " | " + "Link" + " | " +
     "Description" + " |" + "\n";
 }
+
 function newMarkdownTableSplit(): string {
   return "| " + "---" + " | " + "---" + " | " + "---" + " | " +
     "---" + " |" + "\n";
 }
+
 function newMarkdownTableRow(
   id: string,
   language: string,
@@ -122,7 +129,8 @@ function newMarkdownTableRow(
   return "| " + id + " | " + language + " | " +
     `[Link](${link})` + " | " + description + " |" + "\n";
 }
-function writeMarkdown(
+
+function writeMarkdownFile(
   path: string,
   table: string,
 ): void {
@@ -130,9 +138,10 @@ function writeMarkdown(
     Deno.writeTextFileSync(path, table);
   } catch (e) {
     console.error(e);
+    Deno.exit(1);
   }
 }
 
 const gists = await getGitHubGists(username);
 const table = newMarkdownTable(gists);
-writeMarkdown("./README.md", table);
+writeMarkdownFile("./README.md", table);
