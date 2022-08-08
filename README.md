@@ -1,7 +1,7 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
 | 4cd42 | C# | [Link](https://gist.github.com/4cd42ad37ba85f428c844bd5e63dc3f5) | Provides the ability to generate an Access Token from Azure Active Directory |
-| 35af0 | YAML | [Link](https://gist.github.com/35af059013391342e3a91abe2fc28240) | Provides the ability to push Docker images to Azure Container Registry via OpenID Connect |
+| 35af0 | YAML | [Link](https://gist.github.com/35af059013391342e3a91abe2fc28240) | Provides the ability to push container images to ACR with OpenID Connect authentication |
 | 19211 | Bicep | [Link](https://gist.github.com/192111d6cd9f42cdc08e63e017abc5cc) | Provides the ability to call Azure Functions to start a workflow |
 | caad8 | Go | [Link](https://gist.github.com/caad839fc5383a24323af78f8cc6a087) | Provides the ability to interact with Service Bus |
 | a5e9a | JSON | [Link](https://gist.github.com/a5e9a8b7228f6c966dbfd5fb9720457a) | Provides the ability to deploy App Service Plan and Function App |
@@ -18,7 +18,7 @@
 | 4d8d8 | Shell | [Link](https://gist.github.com/4d8d895b1553693d236a0cb7d191ffee) | Provides the ability to clone all repositories |
 | 6b493 | PowerShell | [Link](https://gist.github.com/6b493abd17ca9851e937b56a1afbdbeb) | Provides the ability to report on virtual machine information |
 | bd68e | JSON | [Link](https://gist.github.com/bd68e4ba23a2863866c44b10ae7e9a93) | Provides the ability to deploy policy definition via arm template |
-| ed7a0 | PowerShell | [Link](https://gist.github.com/ed7a00636ae047213ef06cd126463599) | Provides the ability to recursively remove Management Groups and move Subscriptions |
+| ed7a0 | PowerShell | [Link](https://gist.github.com/ed7a00636ae047213ef06cd126463599) | Provides the ability to recursively remove Management Groups |
 | e79c0 | JSON | [Link](https://gist.github.com/e79c0c0207c4ecb1c3abbba78645185c) | Provides the ability to deploy Management Groups with templates |
 | 6ed96 | JSON | [Link](https://gist.github.com/6ed96d712dab9fb9e378b1bc62561e25) | Provides the ability to deploy Policy Definitions with templates |
 | 3f349 | JSON | [Link](https://gist.github.com/3f349943e5432e452af23c08b252359c) | Provides the ability to deploy Subscriptions with templates |
