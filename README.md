@@ -1,7 +1,8 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
+| 9931b | YAML | [Link](https://gist.github.com/9931bace1a1fc5a0a34c4bd47d5dff7b) | Provides the ability to run Windows 11 on Azure with Trusted Launch (vTPM / Secure Boot) and deploy with GitHub Actions |
 | 4cd42 | C# | [Link](https://gist.github.com/4cd42ad37ba85f428c844bd5e63dc3f5) | Provides the ability to generate an Access Token from Azure Active Directory |
-| 35af0 | YAML | [Link](https://gist.github.com/35af059013391342e3a91abe2fc28240) | Provides the ability to push container images to ACR with OpenID Connect authentication |
+| 35af0 | YAML | [Link](https://gist.github.com/35af059013391342e3a91abe2fc28240) | Provides the ability to push container images to ACR with OpenID Connect |
 | 19211 | Bicep | [Link](https://gist.github.com/192111d6cd9f42cdc08e63e017abc5cc) | Provides the ability to call Azure Functions to start a workflow |
 | caad8 | Go | [Link](https://gist.github.com/caad839fc5383a24323af78f8cc6a087) | Provides the ability to interact with Service Bus |
 | a5e9a | JSON | [Link](https://gist.github.com/a5e9a8b7228f6c966dbfd5fb9720457a) | Provides the ability to deploy App Service Plan and Function App |
@@ -29,4 +30,3 @@
 | 14886 | JSON | [Link](https://gist.github.com/148867adf83f9b85edbe0cc190142ad5) | Provides the ability to enforce outbound restrictions |
 | 412cc | JSON | [Link](https://gist.github.com/412ccb37e5511e684a0e8737ef3d9c6c) | Provides the ability to allow resource types |
 | f259a | PowerShell | [Link](https://gist.github.com/f259a8dfc0dee5c1a7a42e4b980b7440) | Provides the ability to write logs |
-| f9aa8 | JSON | [Link](https://gist.github.com/f9aa8f36088d4255a3654e90c432639c) | Provides the ability to loop array properties |
