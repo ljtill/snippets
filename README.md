@@ -1,8 +1,8 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
 | 1729c | JSON | [Link](https://gist.github.com/1729c81af237c1d0a5c1720d6d81abc4) | Provides the ability to create / delete multiple Kubernetes clusters |
-| 03f92 | YAML | [Link](https://gist.github.com/03f927a1e2af9e901404730c954e9e59) | Provides the ability to deploy to multiple Synapse workspaces with GitHub Actions |
-| 9931b | YAML | [Link](https://gist.github.com/9931bace1a1fc5a0a34c4bd47d5dff7b) | Provides the ability to run Windows 11 on Azure with Trusted Launch (vTPM / Secure Boot) and deploy with GitHub Actions |
+| 03f92 | YAML | [Link](https://gist.github.com/03f927a1e2af9e901404730c954e9e59) | Provides the ability to deploy to multiple Synapse workspaces |
+| 9931b | YAML | [Link](https://gist.github.com/9931bace1a1fc5a0a34c4bd47d5dff7b) | Provides the ability to run Windows 11 on Azure with Trusted Launch |
 | 4cd42 | C# | [Link](https://gist.github.com/4cd42ad37ba85f428c844bd5e63dc3f5) | Provides the ability to generate an Access Token from Azure Active Directory |
 | 35af0 | YAML | [Link](https://gist.github.com/35af059013391342e3a91abe2fc28240) | Provides the ability to push container images to ACR with OpenID Connect |
 | 19211 | Bicep | [Link](https://gist.github.com/192111d6cd9f42cdc08e63e017abc5cc) | Provides the ability to call Azure Functions to start a workflow |
