@@ -1,5 +1,6 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
+| 1729c | JSON | [Link](https://gist.github.com/1729c81af237c1d0a5c1720d6d81abc4) | Provides the ability to create / delete multiple Kubernetes clusters |
 | 03f92 | YAML | [Link](https://gist.github.com/03f927a1e2af9e901404730c954e9e59) | Provides the ability to deploy to multiple Synapse workspaces with GitHub Actions |
 | 9931b | YAML | [Link](https://gist.github.com/9931bace1a1fc5a0a34c4bd47d5dff7b) | Provides the ability to run Windows 11 on Azure with Trusted Launch (vTPM / Secure Boot) and deploy with GitHub Actions |
 | 4cd42 | C# | [Link](https://gist.github.com/4cd42ad37ba85f428c844bd5e63dc3f5) | Provides the ability to generate an Access Token from Azure Active Directory |
@@ -29,4 +30,3 @@
 | 449fb | PowerShell | [Link](https://gist.github.com/449fb3c27e8a8f830f640f4f8dddad7b) | Provides the ability to list Git branches |
 | 9ddac | PowerShell | [Link](https://gist.github.com/9ddac1d1f0e2b578791e6f6d84f5f6d1) | Provides the ability to output Git status |
 | 14886 | JSON | [Link](https://gist.github.com/148867adf83f9b85edbe0cc190142ad5) | Provides the ability to enforce outbound restrictions |
-| 412cc | JSON | [Link](https://gist.github.com/412ccb37e5511e684a0e8737ef3d9c6c) | Provides the ability to allow resource types |
