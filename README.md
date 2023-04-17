@@ -1,5 +1,6 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
+| 50c4a | XML | [Link](https://gist.github.com/ljtill/50c4a5fafd47caf4b03d64697821d848) | Provides the ability to query Blob (object) Storage with SQL Server |
 | 1729c | JSON | [Link](https://gist.github.com/ljtill/1729c81af237c1d0a5c1720d6d81abc4) | Provides the ability to create / delete multiple Kubernetes clusters |
 | 03f92 | YAML | [Link](https://gist.github.com/ljtill/03f927a1e2af9e901404730c954e9e59) | Provides the ability to deploy to multiple Synapse workspaces |
 | 9931b | YAML | [Link](https://gist.github.com/ljtill/9931bace1a1fc5a0a34c4bd47d5dff7b) | Provides the ability to run Windows 11 on Azure with Trusted Launch |
@@ -29,4 +30,3 @@
 | df054 | JSON | [Link](https://gist.github.com/ljtill/df05405702a6e3125b479360b906db25) | Provides the ability to deploy Resource Groups with templates |
 | 449fb | PowerShell | [Link](https://gist.github.com/ljtill/449fb3c27e8a8f830f640f4f8dddad7b) | Provides the ability to list Git branches |
 | 9ddac | PowerShell | [Link](https://gist.github.com/ljtill/9ddac1d1f0e2b578791e6f6d84f5f6d1) | Provides the ability to output Git status |
-| 14886 | JSON | [Link](https://gist.github.com/ljtill/148867adf83f9b85edbe0cc190142ad5) | Provides the ability to enforce outbound restrictions |
