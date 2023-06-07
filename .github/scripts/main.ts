@@ -27,7 +27,6 @@ interface Gist {
   owner: Owner;
   truncated: boolean;
 }
-
 interface Owner {
   login: string;
   id: number;
@@ -48,7 +47,6 @@ interface Owner {
   type: string;
   site_admin: boolean;
 }
-
 interface File {
   filename: string;
   type: string;
@@ -58,17 +56,32 @@ interface File {
 }
 
 async function getGitHubGists(username: string): Promise<Gist[]> {
+  const url = new URL(`https://api.github.com/users/${username}/gists`)
+  const maxPages = 10;
+  let gists: Gist[] = []
+
   try {
-    const httpResponse = await fetch(
-      `https://api.github.com/users/${username}/gists`,
-      {
-        method: "GET",
-        headers: {
-          "Accept": "application/vnd.github+json",
+    for (let i = 1; i <= maxPages; i++) {
+      console.debug(`=> Sending HTTP Request - User (${username}) - Page (${i}) `)
+      url.searchParams.set('page', String(i))
+
+      const httpResponse = await fetch(
+        url,
+        {
+          method: "GET",
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+          },
         },
-      },
-    );
-    return JSON.parse(await httpResponse.text());
+      );
+
+      console.log(await httpResponse.text())
+
+      gists = gists.concat(JSON.parse(await httpResponse.text()))
+    }
+
+    return gists;
   } catch (e) {
     console.error(e);
     Deno.exit(1);
@@ -141,6 +154,8 @@ function writeMarkdownFile(
     Deno.exit(1);
   }
 }
+
+
 
 const gists = await getGitHubGists(username);
 const table = newMarkdownTable(gists);
