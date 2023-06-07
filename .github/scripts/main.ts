@@ -59,15 +59,12 @@ interface File {
 
 async function getGitHubGists(username: string): Promise<Gist[]> {
   const url = new URL(`https://api.github.com/users/${username}/gists`)
-  const maxPages = 10;
   let gists: Gist[] = []
 
   try {
-    for (let i = 1; i <= maxPages; i++) {
-      console.debug(`=> Sending HTTP Request - User (${username}) - Page (${i}) `)
+    for (let i = 1; i <= 10; i++) {
       url.searchParams.set('page', String(i))
-
-      const httpResponse = await fetch(
+      gists = gists.concat(JSON.parse(await (await fetch(
         url,
         {
           method: "GET",
@@ -76,16 +73,14 @@ async function getGitHubGists(username: string): Promise<Gist[]> {
             "X-GitHub-Api-Version": "2022-11-28"
           },
         },
-      );
-
-      gists = gists.concat(JSON.parse(await httpResponse.text()))
+      )).text()));
     }
-
-    return gists;
   } catch (e) {
     console.error(e);
     Deno.exit(1);
   }
+
+  return gists;
 }
 
 function getGitHubGistId(gist: Gist): string {
