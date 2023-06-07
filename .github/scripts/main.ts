@@ -157,8 +157,6 @@ function writeMarkdownFile(
   }
 }
 
-
-
 const gists = await getGitHubGists(username);
 const table = newMarkdownTable(gists);
 writeMarkdownFile("./README.md", table);
