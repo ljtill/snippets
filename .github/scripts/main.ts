@@ -78,8 +78,6 @@ async function getGitHubGists(username: string): Promise<Gist[]> {
         },
       );
 
-      console.log(await httpResponse.text())
-
       gists = gists.concat(JSON.parse(await httpResponse.text()))
     }
 
