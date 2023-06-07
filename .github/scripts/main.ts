@@ -58,21 +58,29 @@ interface File {
 }
 
 async function getGitHubGists(username: string): Promise<Gist[]> {
+  const url = new URL(`https://api.github.com/users/${username}/gists`)
+  let gists: Gist[] = []
+
   try {
-    const httpResponse = await fetch(
-      `https://api.github.com/users/${username}/gists`,
-      {
-        method: "GET",
-        headers: {
-          "Accept": "application/vnd.github+json",
+    for (let i = 1; i <= 10; i++) {
+      url.searchParams.set('page', String(i))
+      gists = gists.concat(JSON.parse(await (await fetch(
+        url,
+        {
+          method: "GET",
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+          },
         },
-      },
-    );
-    return JSON.parse(await httpResponse.text());
+      )).text()));
+    }
   } catch (e) {
     console.error(e);
     Deno.exit(1);
   }
+
+  return gists;
 }
 
 function getGitHubGistId(gist: Gist): string {
