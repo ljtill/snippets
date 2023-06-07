@@ -27,6 +27,7 @@ interface Gist {
   owner: Owner;
   truncated: boolean;
 }
+
 interface Owner {
   login: string;
   id: number;
@@ -47,6 +48,7 @@ interface Owner {
   type: string;
   site_admin: boolean;
 }
+
 interface File {
   filename: string;
   type: string;
