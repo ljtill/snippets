@@ -50,7 +50,7 @@
 | 1fb19 | PowerShell | [Link](https://gist.github.com/ljtill/1fb196f54d1611c6f06fb61ccc369969) | Provides the ability to retrieve all Virtual Machine images across a given tenant |
 | f1b47 | PowerShell | [Link](https://gist.github.com/ljtill/f1b4739ee5ab1183f924569cb3f5dcfa) | Provides the ability to generate Graph Invitations. |
 | a25a7 | PowerShell | [Link](https://gist.github.com/ljtill/a25a7e17f754f1605e1687b0dff1b6ad) | Provides the ability to find a Virtual Machine via IP Address |
-| 6e6b5 | Go | [Link](https://gist.github.com/ljtill/6e6b5108b686e14c6a545b1a452d5a32) | Provides the ability to retrieve all Resource Groups within a specified Subscription |
+| 6e6b5 | Go | [Link](https://gist.github.com/ljtill/6e6b5108b686e14c6a545b1a452d5a32) | Provides the ability to retrieve all Resource Groups |
 | 881ee | Go | [Link](https://gist.github.com/ljtill/881eef84492c4545c652a05f39f2031c) | Provides the ability to retrieve all Virtual Networks within a specified Subscription |
 | 5c641 | PowerShell | [Link](https://gist.github.com/ljtill/5c641d7f1ad53b5bdcfff4ab6a293e09) | Provides the ability to convert Rackspace usage metadata |
 | eab57 | PowerShell | [Link](https://gist.github.com/ljtill/eab57e175fad3aa426a76360e08b265b) | Provides the ability to retrieve logs for de-allocated Virtual Machines |
@@ -60,11 +60,11 @@
 | ec28b | PowerShell | [Link](https://gist.github.com/ljtill/ec28b951e1568ba021b1de4f6e808545) | Provides the ability to enable AzureRm alias for all Az modules |
 | dbd20 | PowerShell | [Link](https://gist.github.com/ljtill/dbd20025366d74499eae400e28f885ce) | Provides the ability to allow outbound connectivity to Service Tags |
 | 1fd09 | JSON | [Link](https://gist.github.com/ljtill/1fd092e9a5d5fa4b9f99e2058d7ffc77) | Provides the ability to execute Pester runs from the Command Palette. |
-| 5b82c | PowerShell | [Link](https://gist.github.com/ljtill/5b82c77a5a121ca40382ea712e0261bf) | Provides the ability to execute multiple Pester tests based on Plaster template structure |
+| 5b82c | PowerShell | [Link](https://gist.github.com/ljtill/5b82c77a5a121ca40382ea712e0261bf) | Provides the ability to execute multiple Pester tests |
 | ddc34 | YAML | [Link](https://gist.github.com/ljtill/ddc34daaa8aebde4bc37aba2466a5325) | Provides the ability to execute Pester tests within Azure Pipelines |
 | a5876 | PowerShell | [Link](https://gist.github.com/ljtill/a58769fb3226899577ba7be1edf74282) | Provides the ability to select Operating System |
 | 196ac | Shell | [Link](https://gist.github.com/ljtill/196ac177fb0e66c1f1766bead4b2f108) | List of commonly used Resource Graph examples |
-| 3b959 | PowerShell | [Link](https://gist.github.com/ljtill/3b959aaac271df5abc83d3e34c207e51) | Provides the ability to generate random load for local Azure Functions development |
+| 3b959 | PowerShell | [Link](https://gist.github.com/ljtill/3b959aaac271df5abc83d3e34c207e51) | Provides the ability to generate random requests |
 | 53351 | Python | [Link](https://gist.github.com/ljtill/533517c90cebf1a2515b12b3a20bad1f) | Provides the ability to clone all GitHub repositories |
 | 6b16c | Python | [Link](https://gist.github.com/ljtill/6b16c3b552e990b6669d38a8d0f4e64e) | Provides the ability to retrieve Azure resources |
 | dc4c6 | PowerShell | [Link](https://gist.github.com/ljtill/dc4c6f508a22b2d147ac1ed9a8bd202e) | Provides the ability to clone all GitHub repositories of an owner |
