@@ -68,10 +68,10 @@
 | 53351 | Python | [Link](https://gist.github.com/ljtill/533517c90cebf1a2515b12b3a20bad1f) | Provides the ability to clone all GitHub repositories |
 | 6b16c | Python | [Link](https://gist.github.com/ljtill/6b16c3b552e990b6669d38a8d0f4e64e) | Provides the ability to retrieve Azure resources |
 | dc4c6 | PowerShell | [Link](https://gist.github.com/ljtill/dc4c6f508a22b2d147ac1ed9a8bd202e) | Provides the ability to clone all GitHub repositories of an owner |
-| 0fcea | PowerShell | [Link](https://gist.github.com/ljtill/0fcea1ce413ee90a238f19d0cc4ce91a) | Provides the ability to retrieve all historical Resource Health of a specific Resource Id |
-| a91fb | PowerShell | [Link](https://gist.github.com/ljtill/a91fb8f9a1dbd9e1479cde5018b04a84) | Provides the ability to retrieve the Resource Health of all Resources within a Subscription |
+| 0fcea | PowerShell | [Link](https://gist.github.com/ljtill/0fcea1ce413ee90a238f19d0cc4ce91a) | Provides the ability to retrieve all historical Resource Health |
+| a91fb | PowerShell | [Link](https://gist.github.com/ljtill/a91fb8f9a1dbd9e1479cde5018b04a84) | Provides the ability to retrieve the Resource Health of all Resources |
 | 7136b | PowerShell | [Link](https://gist.github.com/ljtill/7136beb57c6738bad2c1c8572d8a5360) | Provides the ability to execute scripts against Virtual Machines |
-| 78764 | PowerShell | [Link](https://gist.github.com/ljtill/787643e07810a4cac534e58b96ea2607) | Provides the ability to retrieve all API versions or the latest API version of a Resource Provider |
+| 78764 | PowerShell | [Link](https://gist.github.com/ljtill/787643e07810a4cac534e58b96ea2607) | Provides the ability to retrieve API version of a Resource Provider |
 | 2c7a9 | PowerShell | [Link](https://gist.github.com/ljtill/2c7a9a1538d56bea2c29068f961556fc) | Provides the ability to retrieve Virtual Machines via REST API |
 | 334b8 | PowerShell | [Link](https://gist.github.com/ljtill/334b86ffb2c720fb281309503632e8b3) | Provides the ability to retrieve Resource Groups via REST API |
 | f0a08 | C# | [Link](https://gist.github.com/ljtill/f0a081b555cd222ad86618d90d998549) | Provides the ability to retrieve an Access Token via REST API |
