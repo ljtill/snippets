@@ -51,7 +51,7 @@
 | f1b47 | PowerShell | [Link](https://gist.github.com/ljtill/f1b4739ee5ab1183f924569cb3f5dcfa) | Provides the ability to generate Graph Invitations. |
 | a25a7 | PowerShell | [Link](https://gist.github.com/ljtill/a25a7e17f754f1605e1687b0dff1b6ad) | Provides the ability to find a Virtual Machine via IP Address |
 | 6e6b5 | Go | [Link](https://gist.github.com/ljtill/6e6b5108b686e14c6a545b1a452d5a32) | Provides the ability to retrieve all Resource Groups |
-| 881ee | Go | [Link](https://gist.github.com/ljtill/881eef84492c4545c652a05f39f2031c) | Provides the ability to retrieve all Virtual Networks within a specified Subscription |
+| 881ee | Go | [Link](https://gist.github.com/ljtill/881eef84492c4545c652a05f39f2031c) | Provides the ability to retrieve all Virtual Networks |
 | 5c641 | PowerShell | [Link](https://gist.github.com/ljtill/5c641d7f1ad53b5bdcfff4ab6a293e09) | Provides the ability to convert Rackspace usage metadata |
 | eab57 | PowerShell | [Link](https://gist.github.com/ljtill/eab57e175fad3aa426a76360e08b265b) | Provides the ability to retrieve logs for de-allocated Virtual Machines |
 | 6c9eb | PowerShell | [Link](https://gist.github.com/ljtill/6c9eb12a275c301846d0ae8937ad95f3) | Provides the ability to set custom RBAC for Rackspace Smart Tickets |
