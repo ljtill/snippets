@@ -80,7 +80,6 @@
 | 5a387 | PowerShell | [Link](https://gist.github.com/ljtill/5a38719d4ffe67e6b421732a1326f4ad) | Provides the ability to retrieve the Access Token from the current Context |
 | 8fd86 | C# | [Link](https://gist.github.com/ljtill/8fd86d8dda2643a740376f207cd32cbc) | Provides the ability to retrieve a secret from Key Vault |
 | b9f69 | C# | [Link](https://gist.github.com/ljtill/b9f692b874c2bcae348d7e2ea01ec4cd) | Provides the ability to retrieve an environment variable |
-| 153c2 | PowerShell | [Link](https://gist.github.com/ljtill/153c216602ed695a77c730c78aa6a57e) | Provides the ability to list all marketplace images |
 | 20ef2 | PowerShell | [Link](https://gist.github.com/ljtill/20ef29a8dc89613b9873b90ac5a3e13c) | Provides the ability to report on Storage Account access |
 | 17eb1 | PowerShell | [Link](https://gist.github.com/ljtill/17eb1e501137c9e607e68e15690358c3) | Provides the ability to clone all Azure DevOps repositories |
 | 3165d | Dockerfile | [Link](https://gist.github.com/ljtill/3165df50450647322773ff6442b6059e) | Provides the ability to create Docker images for PowerShell / .NET |
