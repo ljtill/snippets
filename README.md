@@ -1,5 +1,8 @@
 | ID |  Language  | Link | Description |
 | --- | --- | --- | --- |
+| 40249 | Shell | [Link](https://gist.github.com/ljtill/4024925d35367672bc9cd4cff7a16c04) | Provides the ability to deploy Kubernetes Service with Application Gateway Ingress Controller |
+| 53a65 | JSON | [Link](https://gist.github.com/ljtill/53a6562b00dc546c0f4ba8788b545ec2) | Provides an example of the payload sent from Application Gateway Ingress Controller to Azure Resource Manager |
+| fd1a8 | Markdown | [Link](https://gist.github.com/ljtill/fd1a8aac8e2d5ad3f62120e8ff01538c) | Provides the ability to dump Kubernetes configuration |
 | 50c4a | XML | [Link](https://gist.github.com/ljtill/50c4a5fafd47caf4b03d64697821d848) | Provides the ability to query Blob (object) Storage with SQL Server |
 | 1729c | JSON | [Link](https://gist.github.com/ljtill/1729c81af237c1d0a5c1720d6d81abc4) | Provides the ability to create / delete multiple Kubernetes clusters |
 | 03f92 | YAML | [Link](https://gist.github.com/ljtill/03f927a1e2af9e901404730c954e9e59) | Provides the ability to deploy to multiple Synapse workspaces |
